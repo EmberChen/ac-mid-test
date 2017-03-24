@@ -31,9 +31,9 @@ class MovieViewController: UIViewController,UITableViewDelegate,UITableViewDataS
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        tableView.separatorStyle = .singleLine
-        tableView.separatorColor = UIColor.orange
-        tableView.separatorInset = UIEdgeInsetsMake(20, 20, 20, 20)
+        //tableView.separatorStyle = .singleLine
+        //tableView.separatorColor = UIColor.orange
+        
         return movieArray.count
     }
     
